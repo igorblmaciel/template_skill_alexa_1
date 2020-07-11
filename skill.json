@@ -1,0 +1,37 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Summary description of the skill",
+          "examplePhrases": [
+            "<example phrases for the skill>"
+          ],
+          "name": "<hello world>",
+          "description": "This is a sample template"
+        },
+        "pt-BR": {
+          "summary": "Resumo descritivo da skill",
+          "examplePhrases": [
+            "<Exemplos de frases para Skill>"
+          ],
+          "name": "<Ola Mundo>",
+          "description": "Este é um exemplo de template"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample testing instructions",
+      "category": "[ADD CATEGORY FROM https://developer.amazon.com/docs/smapi/skill-manifest.html#category-enum]",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": ""
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
